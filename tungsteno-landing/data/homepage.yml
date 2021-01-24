@@ -1,0 +1,115 @@
+####################### Banner #########################
+banner:
+  title: 'For scientists. By scientists. For you'
+  image: 'images/science.jpg'
+  content: |
+    Tungsteno is a **programming language** developed **for doing science in a simple way**. Developed so that **everyone can collaborate in its development**, and **adapt the software to their needs** easily using the module APIs.
+    **Tungsteno is free software**, so **you can modify it as you wish**, **distribute it among your friends and scientific colleagues**, and you can **study how it works**, and **improve it**. _That's science!_
+
+    Tungsteno aims to be 100% compatible with Wolfram Mathematica.
+  button:
+    enable: true
+    label: 'I want to contribute!'
+    link: '/#contribute'
+
+##################### Feature ##########################
+feature:
+  enable: true
+  title: Features you'll love
+  feature_item:
+    # feature item loop
+    - name: 'Complex mathematical problems?'
+      icon: 'ti-ruler-alt'
+      content: 'Integrals? derivatives? equations? differential equations? no problem! Tungsteno will solve it for you.'
+
+    # feature item loop
+    - name: 'Share with your colleagues'
+      icon: 'ti-heart'
+      content: |
+        Tungsteno does not require a licence. Tell your colleagues to download it for free.
+        Help us grow!
+
+    # feature item loop
+    - name: 'Collaborate'
+      icon: 'ti-light-bulb'
+      content: |
+        Are you missing a feature, would you like to add a feature, please contribute and let's help others!
+
+    # feature item loop
+    - name: 'Great graphics'
+      icon: 'ti-bar-chart'
+      content: 'Need to generate graphs easily? No problem! Tungsteno generates them for you.'
+
+    # feature item loop
+    - name: 'Incredibly fast'
+      icon: 'ti-rocket'
+      content: 'Tungsteno is powered by highly optimised Python libraries.'
+
+    # feature item loop
+    - name: 'Cloud Support'
+      icon: 'ti-cloud-up'
+      content: Tungsteno can be easily deployed in the cloud thanks to Docker's build
+
+######################### Service #####################
+service:
+  enable: true
+  service_item:
+    # service item loop
+    - title: 'At a glance!'
+      images:
+        - 'images/screenshot-1.png'
+        - 'images/screenshot-2.png'
+        - 'images/screenshot-3.png'
+        - 'images/screenshot-4.png'
+
+      content: |
+        Is it a bird? Is it a plane? No! These are screenshots of Tungsteno in operation.
+
+        Here you can see Tungsteno solving integrals of several variables, autocompleting your code, its interface, simplifying algebraic expressions and generating 3D graphics. It doesn't even blink.
+      button:
+        enable: true
+        label: 'Try it!'
+        link: 'https://demo.tungsteno.app/'
+
+    # service item loop
+    - title: 'Contribute'
+      images:
+        - 'images/github.png'
+      content: |
+        Tungsteno is designed to be developed in community. That's why all Tungsteno code is hosted on Github and all Github users can collaborate by adding features, fixing bugs and proposing improvements. In addition, the Github repository maintains a dashboard where you can see the roadmap of the project.
+
+        One of the features coming soon to Tungsteno will be the possibility to download and upload features to a repository to facilitate the distribution and incorporation of new features. Stay tuned!
+
+        Access our Github and start collaborating!
+      button:
+        enable: true
+        label: 'Contribute'
+        link: 'https://github.com/tungstenoapp/Tungsteno'
+
+    # service item loop
+    - title: 'Free as in freedom'
+      images:
+        - 'images/logo-fsf.org.svg'
+      content: |
+        Tungsteno is licensed under the GPLv3 license. This protects you as a user, and gives you the possibility to modify, study Tungsteno as you wish. But in addition, it ensures that all versions of Tungsteno that may be born, keep the same licence.
+      button:
+        enable: true
+        label: 'License'
+        link: 'https://github.com/tungstenoapp/Tungsteno/blob/master/LICENSE'
+
+################### Screenshot ########################
+screenshot:
+  enable: false
+  title: 'Experience the best <br> workflow with us'
+  image: 'images/screenshot.png'
+
+##################### Call to action #####################
+call_to_action:
+  enable: false
+  title: 'Download now! (Beta)'
+  image: 'images/logo.svg'
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.'
+  button:
+    enable: true
+    label: 'Download now'
+    link: 'https://github.com/tungstenoapp/Tungsteno/archive/v1.1.zip'

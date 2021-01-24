@@ -1,0 +1,3 @@
+[submodule "tungsteno-landing/themes/bigspring"]
+	path = tungsteno-landing/themes/bigspring
+	url = https://github.com/themefisher/bigspring-hugo-startup-theme.git

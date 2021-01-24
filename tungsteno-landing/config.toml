@@ -1,0 +1,101 @@
+baseURL = "https://tungsteno.app/"
+languageCode = "en-us"
+title = "Tungsteno"
+theme = "bigspring"
+# post pagination
+paginate = "3"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "Home"
+URL = "/"
+weight = -1
+[[menu.main]]
+name = "Features you’ll love"
+URL = "/#features"
+weight = 1
+[[menu.main]]
+name = "At a glance!"
+URL = "/#at-a-glance"
+weight = 2
+[[menu.main]]
+name = "Free software"
+URL = "/#free-as-in-freedom"
+weight = 3
+
+[[menu.main]]
+name = "Blog"
+URL = "/blog"
+weight = 10
+
+# footer menu right
+[[menu.footer_left]]
+name = "Core Docs"
+URL = "https://docs.tungsteno.app/"
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.svg"
+logo_width = "50px"
+# Meta data
+description = "Tugnsteno is a programming language intended to be 100% compatible with Wolfram Language. It is designed to be lightweight, and easily extensible through modules, and module repositories."
+author = "Themefisher"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+
+########### footer content ##########
+footer_menu_left = "Support"
+footer_menu_middle = "Product"
+footer_menu_right = "Support"
+footer_content = "Tugnsteno is a programming language intended to be 100% compatible with Wolfram Language. It is designed to be lightweight, and easily extensible through modules, and module repositories."
+# copyright
+copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[params.navigation_button]
+enable = true
+label = "Try it!"
+link = "https://demo.tungsteno.app"
+
+
+############################# social site ########################
+#[[params.social]]
+#title = "facebook"
+#icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+#link = "#"
+
