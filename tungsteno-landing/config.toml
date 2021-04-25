@@ -99,3 +99,6 @@ link = "https://demo.tungsteno.app"
 #icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
 #link = "#"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS", "JSON"]
