@@ -54,6 +54,11 @@ URL = "/#free-as-in-freedom"
 weight = 3
 
 [[menu.main]]
+name = "Download"
+URL = "/#download"
+weight = 4
+
+[[menu.main]]
 name = "Blog"
 URL = "/blog"
 weight = 10
@@ -65,7 +70,7 @@ URL = "https://docs.tungsteno.app/"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.svg"
+logo = "images/logo_app.png"
 logo_width = "50px"
 # Meta data
 description = "Tugnsteno is a programming language intended to be 100% compatible with Wolfram Language. It is designed to be lightweight, and easily extensible through modules, and module repositories."
