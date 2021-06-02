@@ -10,15 +10,14 @@ image: blog/tungsteno-update-1.6/cover.png
 Tungsteno has been updated by adding some new features and solving bugs! In this new version, 35 commits have been added, more than 1 commit per day!
 1. Add support for Manipulate, now you'll be able to generate interactive notebooks easily!
 2. Add suppor for DSolve, now you'll be able to solve differential equations.
-3. Improve plot support:
-      a. Improve color selection for plots.
-      b. Improve plot quality with a new algorithm for selecting the correct number of points.
-      c. Add support for show several plots in one graphics with "Show".
-
-4. Add support for replace rules.
-5. Add unary operator for derivative.
-6. Add support for anon functions.
-7. Other minor bugs, and other improvements
+3. Improve plot support.
+4. Improve color selection for plots.
+5. Improve plot quality with a new algorithm for selecting the correct number of points.
+6. Add support for show several plots in one graphics with "Show".
+7. Add support for replace rules.
+8. Add unary operator for derivative.
+9. Add support for anon functions.
+10. Other minor bugs, and other improvements
 
 You can review all changes [here!](https://github.com/tungstenoapp/Tungsteno/compare/v1.5...v1.6)
 
